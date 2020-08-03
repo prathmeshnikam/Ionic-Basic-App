@@ -1,0 +1,7 @@
+{
+  "name": "BioTech",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

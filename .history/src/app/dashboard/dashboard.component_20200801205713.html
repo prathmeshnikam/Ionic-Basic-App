@@ -1,0 +1,26 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      DashBord
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <ion-nav-bar>
+    <!-- <ion-nav-back-button>Back</ion-nav-back-button> -->
+    <ion-icon ios="ios-arrow-dropdown-circle" md="md-arrow-dropdown-circle"></ion-icon>
+  </ion-nav-bar>
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Blank</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    <ion-button color="secondary" (click)="navigate('calculate')">Calculate</ion-button>
+    <ion-button color="tertiary" (click)="navigate('addMsg')">Add New MSG</ion-button>
+    <ion-button color="success" (click)="navigate('showMsg')">Show All MSG</ion-button>
+  </div>
+</ion-content>
